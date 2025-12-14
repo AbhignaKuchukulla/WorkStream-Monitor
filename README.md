@@ -63,14 +63,6 @@ streamlit run app.py
 - Use the Quick Update panel to adjust task status, owner, title, or description.
 - Review the Execution Health dashboard for risk indicators (Blocked, At-Risk, Long-Running) and workload distribution.
 - Read the Daily Summary section during stand-ups.
-
-## Future Enhancements
-- Persistent storage layer (SQLite / CSV / Parquet) with load/save
-- Authentication and basic access control
-- Simple REST API or Streamlit callbacks for integrations
-- Advanced risk signals (e.g., dependency mapping, SLA windows)
-- Export summaries to Markdown/Slack
-
 ## Notes
 - Data is stored in Streamlit `session_state` for the initial version.
 - Code is organized with modular functions for easy extension.
